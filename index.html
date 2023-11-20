@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styleform.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/mobile.css">
+    <title>Ferreira DEV</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="navbar-container">
+            <h1 class="logo">
+                <img src="./src/ferreira-logo.png" class="logo-navbar" alt="FERREIRA-DEV">
+            </h1>
+            <ul id="navbar-items">
+                <li><a href="#showcase">Inicio</a></li>
+                <li><a href="#product">Sobre</a></li>
+                <!-- <li><a href="#gallery">Galeria</a></li> -->
+                <li><a href="#contato">contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="showcase">
+        <div id="showcase-container">
+            <h2>Apaixonados por Tecnologia.</h2>
+            <p>Fazer o que se ama com dedicação, nos leva inevitavelmente ao sucesso.</p>
+            <a href="#features" class="btn">Saíba Mais</a>
+        </div>
+    </header>
+
+    <!-- About -->
+
+    <section id="clientes">
+        <div class="headline">Nossos Clientes</div>
+        <div id="clients-container">
+            <img src="./src/ferreira-dev.gif" class="client" alt="">
+            <img src="./src/ferreira-dev.gif" class="client" alt="">
+            <img src="./src/ferreira-dev.gif" class="client" alt="">
+            <img src="./src/ferreira-dev.gif" class="client" alt="">
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="headline">O que fazemos</div>
+        <div id="features-container">
+            <div class="feature">
+                <i class="fas fa-tachometer-alt fa-3x"></i>
+                <span class="feature-title">formatação </span>
+                <p>Limpeza interna, higienização e formatação de Notebooks e DeskTops.</p>
+            </div>
+
+            <div class="feature">
+                <i class="fas fa-code fa-3x"></i>
+                <span class="feature-title">Programação</span>
+                <p>Desenvolvimento de Sites, utilizando as mais modernas linguagens da atualidade.</p>
+            </div>
+
+            <div class="feature">
+                <i class="fas fa-layer-group fa-3x"></i>
+                <span class="feature-title">Instrutor</span>
+                <p>Atualmente trabalhando como Instrutor no ensino de Informática Básica!</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="product">
+        <div class="headline">Nosso produto</div>
+        <div id="product-container">
+            <img src="./src/OficinaDoComputador.jpeg" alt="Cartão de visita Oficina Do Computador" class="iphone-x">
+            <div id="items">
+                <div class="item">
+                    <i class="fas fa-map-marked fa-2x color-primary"></i>
+                    <p>Estamos localizados na Av Brasil, 338 Bairro Centro Cerquilho-SP.</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-users fa-2x color-primary"></i>
+                    <p>Trabalhamos com acesso remoto para correção de configurações, instalação de softwares.</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-solid fa-folder fa-2x color-primary"></i>
+                    <p>Organização dos seus arquivos no seu sistema operacional, para deixar seu sistema funcional.</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-solid fa-laptop fa-2x color-primary"></i>
+                    <p>Formatação de Notebooks e Desktops, formatação em até 24hrs (Sem Backups).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="testimonials">
+        <div class="headline">O que acham de nós</div>
+        <div id="testimonials-container">
+            <div class="testimonial">
+                <img src="./src/jedi 1.png" alt="Primeira Pessoa" class="testimonial-image">
+                <p>Ainda não sabemos o site e novinho envie a sua mensagem, opnião ou critica! Clique <a href="#contato" class="btnaqui"><span">aqui</span></a> para enviar, Ficaremos ansiosos para postar.</p>
+            </div>
+            <!-- <div class="testimonial">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo vitae quos dignissimos iste, unde quia!</p>
+                <img src="./src/jedi 1.png" alt="Segunda Pessoa" class="testimonial-image">
+            </div> -->
+        </div>
+    </div>
+    
+    <!-- <section id="gallery">
+        <div class="headline">Galeria</div>
+        <div id="gallery-container">
+            <img src="./src/image1.gif" alt="" class="gallery-image">
+            <img src="./src/image2.gif" alt="" class="gallery-image">
+            <img src="./src/image3.gif" alt="" class="gallery-image">
+            <img src="./src/image4.gif" alt="" class="gallery-image">
+            <img src="./src/image5.gif" alt="" class="gallery-image">
+            <img src="./src/image6.gif" alt="" class="gallery-image">
+        </div>
+    </section> -->
+
+    <section id="contato">
+        <div class="headline">Contato</div>
+        <div id="contato-container">
+            <form 
+                action="https://formsubmit.co/ferreira.dev.oficial@gmail.com
+                " 
+                method="POST"
+                data-form
+            >
+        
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" required></textarea>
+                <button type="submit" data-button>Enviar</button>
+            </form>
+
+        </div>
+    </section>
+
+    <footer id="footer">
+        <p>Copyright 2023 - Todos os direitos reservados</p>
+        <p>Desenvolvido por FERREIRA DEV</p>
+    </footer>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ec168bd79f.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <!-- Our JS file -->
+    <script src="./js/main.js"></script>
+    <script src="enviaform.js"></script>
+</body>
+</html>
