@@ -49,7 +49,7 @@ Você pode visualizar o vídeo desse projeto através [DESSE LINK](https://www.y
 
 ## 🌐 Site
 
-Você pode visitar o site através desse link [robsferreira-dev.github.io](https://robsferreira-dev.github.io).
+Você pode visitar o site através desse link [robsferreira-dev.github.io](https://robsferreira-dev.github.io)
 
 <br>
 
